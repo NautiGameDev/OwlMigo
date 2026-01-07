@@ -1,0 +1,99 @@
+.component-dbnav {
+    background-color: ghostwhite;
+    width: 100%;           /* Use 100% instead of 100vw */
+    height: 48px;
+    position: fixed;       /* Change sticky to fixed */
+    top: 0;                /* Required for fixed/sticky */
+    left: 0;               /* Required for fixed */
+    z-index: 1000;
+    box-shadow: 0px 0px 10px 3px rgba(122, 157, 150, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dbnav-column {
+    margin: 0px 16px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.dbnav-link {
+    padding: 0px 16px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #00303f;
+    transition: all 0.3s ease-in-out;
+}
+
+.dbnav-link:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-bottom: 5px solid #DCAE1D;
+    color: #DCAE1D;
+    scale: 1.03;
+}
+
+.dbnav-link-active {
+    padding: 0px 16px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #7a9d96;
+    transition: all 0.3s ease-in-out;
+}
+
+.dbnav-link-active:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-bottom: 5px solid #DCAE1D;
+    color: #DCAE1D;
+    scale: 1.03;
+}
+
+.dbnav-link-icon {
+    margin: 0px 4px;
+}
+
+.dbnav-username {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.dbnav-thumbnail {
+    height: 50%;
+    margin: 0px 8px;
+    border-radius: 50%;
+    border: 2px solid #00303f;
+    transition: all 0.3s ease-in-out;
+}
+
+.dbnav-account-link {
+    font-size: 1.6rem;
+    color: #00303f;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.dbnav-account-link:hover {
+    color: #dcae1d;
+    scale: 1.025;
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-bottom: 5px solid #DCAE1D;
+}
+
+.dbnav-account-link:hover .dbnav-thumbnail {
+    border-color: #DCAE1D;
+}

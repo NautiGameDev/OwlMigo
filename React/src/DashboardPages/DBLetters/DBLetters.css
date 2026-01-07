@@ -1,0 +1,187 @@
+.dbpage-letters {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dbletters-row {
+    width: 85%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    margin: 24px 0px;
+}
+
+
+.dbletters-card {
+    width: 90%;
+    background-color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 0px rgba(122, 157, 150, 0.5);
+    animation: searchSlideIn 0.5s ease-out;
+}
+
+.dbletters-header {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #00303f;
+    margin: 8px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.dbletters-button-container {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dbletters-button {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 8px 32px;
+    border-radius: 15px;
+    border: 0px;
+    color: #ffffff;
+    background-color: #7A9D96;
+    transition: all 0.5s;
+    margin-top: 16px;
+}
+
+.dbletters-button:hover {
+    background-color: #CAE4DB;
+    box-shadow: 0px 0px 15px 0px #7A9D96;
+    scale: 1.02;
+    cursor: pointer;
+}
+
+.dbletters-button-toggled {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 8px 32px;
+    border-radius: 15px;
+    border: 0px;
+    color: #ffffff;
+    background-color: #DCAE1D;
+    transition: all 0.5s;
+    margin-top: 16px;
+}
+
+.dbletters-button-toggled:hover {
+    background-color: rgb(250, 220, 127);
+    box-shadow: 0px 0px 15px 0px #999;
+    scale: 1.02;
+    cursor: pointer;
+}
+
+.dbletters-table-container {
+    width: 100%;
+    margin: 32px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.dbletters-table {
+    border-collapse: collapse;
+    width: 75%;
+}
+
+.dbletters-table th {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 2px solid #00303f;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #00303f;
+}
+
+.dbletters-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #00303f;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.dbletters-table-row {
+    transition: all 0.3s ease-in-out;
+}
+
+.dbletters-table-row:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.inbox-to-col {
+    width: 25%;
+}
+
+.inbox-subject-col {
+    width: 50%;
+}
+
+.inbox-date-col {
+    width: 25%;
+}
+
+.dbletters-letter {
+    width: 90%;
+    margin: 16px;
+}
+
+.dbletters-loading-container {
+    margin-top: 56px;
+}
+
+
+.letter-header {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    margin: 8px 0px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.letter-label {
+    font-weight: 500;
+    margin-right: 16px;
+    font-size: 1.1rem;
+}
+
+.letter-content {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    white-space: pre-wrap;
+    padding: 16px;
+    letter-spacing: 2px;
+    line-height: 1.6;
+}
+
+.letter-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.letter-link {
+    color: #7A9D96;
+    font-weight: 500;
+}
+
+.letter-link:hover {
+    color: #dcae1d;
+    font-weight: 500;
+}

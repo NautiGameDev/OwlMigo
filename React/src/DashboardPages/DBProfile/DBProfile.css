@@ -1,0 +1,272 @@
+.dbpage-profile {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dbprof-row {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    margin: 24px 0px;
+}
+
+.dbprof-subrow {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+
+.dbprof-column {
+    width: 47%;
+    display: flex;
+    justify-content: center;
+}
+
+.dbprof-card {
+    width: 90%;
+    background-color: ghostwhite;
+    display: flex;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 0px rgba(122, 157, 150, 0.5);
+    animation: profSlideIn 0.5s ease-out;
+}
+
+.dbprof-header {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #00303f;
+    margin: 8px 0px;
+}
+
+@keyframes profSlideIn {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+        filter: blur(2px);
+    }
+    to {
+        transform: translateY(0); 
+        opacity: 1;
+        filter: blur(0px);
+    }
+}
+
+.dbprof-thumb-container {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dbprof-lastlog-container {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #00303f;
+    margin-top: -8px;
+}
+
+.dbprof-lastlogin-online {
+    font-weight: 500;
+    margin-left: 4px;
+    color: #DCAE1D;
+}
+
+.dbprof-lastlogin-offline {
+    font-weight: 500;
+    margin-left: 4px;
+    color: #7A9D96;
+}
+
+.dbprof-thumbnail {
+    width: 70%;
+    max-width: 200px;
+    height: 70%;
+    max-height: 200px;
+    margin: 16px;
+    border-radius: 50%;
+    border: 3px solid #7A9D96;
+}
+
+.dbprof-header-container {
+    margin: 16px;
+    width: 50%;
+}
+
+.dbprof-username-container {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #00303f;
+    margin-bottom: 8px;
+}
+
+.dbprof-agegender {
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.dbprof-name-container {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #00303f;
+}
+
+.dbprof-country-container {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #03003f;
+    margin: 8px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.dbprof-goals-container {
+    width: 100%;
+    margin: 16px 0px;
+}
+
+.dbprof-goals-header {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #00303f;
+}
+
+.dbprof-goals {
+    display: flex;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.dbprof-goal {
+    background-color: #7a9d96;
+    margin: 4px;
+    height: fit-content;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    color: white;
+    border: 1px solid #00303f;
+    border-radius: 25px;
+    transition: all 0.5s ease-in-out;
+}
+
+.dbprof-message-container {
+    height: 85%;
+    width: 25%;
+    display: flex;
+    align-items: end;
+}
+
+.dbprof-message-btn {
+    background-color: #DCAE1D;
+    margin: 4px;
+    height: fit-content;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 8px 16px;
+    color: white;
+    border: 1px solid #00303f;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.dbprof-message-btn:hover {
+    background-color: rgb(250, 220, 127);
+    box-shadow: 0px 0px 10px 5px whitesmoke;
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.dbprof-about-container {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 16px;
+    width: 100%;
+}
+
+.dbprof-aboutme {
+    margin: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+.dbprof-interests-container {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 16px;
+    width: 100%;
+}
+
+.dbprof-interests {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 400px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #7A9D96 #f0fdfa;
+}
+
+.dbprof-interest {
+    width: fit-content;
+    background-color: #7a9d96;
+    margin: 4px;
+    height: fit-content;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    color: white;
+    border: 1px solid #00303f;
+    border-radius: 25px;
+    transition: all 0.5s ease-in-out;
+}
+
+.dbprof-connections {
+    margin: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.dbprof-languages {
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+}
+
+.dbprof-language {
+    border-bottom: 1px solid #00303f;
+    width: fit-content;
+    margin-bottom: 8px;
+}
+
+.dbprof-lang-name {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.dbprof-spinner-container {
+    margin: 128px;
+}

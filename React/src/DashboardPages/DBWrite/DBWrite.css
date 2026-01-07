@@ -1,0 +1,147 @@
+.dbpage-write {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dbwrite-row {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    margin: 24px 0px;
+}
+
+.dbwrite-card {
+    width: 90%;
+    background-color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 0px rgba(122, 157, 150, 0.5);
+    animation: profSlideIn 0.5s ease-out;
+}
+
+.dbwrite-header {
+    margin: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.dbwrite-recipient {
+    margin: 8px 32px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.dbwrite-subject-container {
+    width: 100%;
+    margin: 8px 32px;
+    display: flex;
+    align-items: center;
+}
+
+.dbwrite-textarea-container {
+    width: 100%;
+    margin: 8px 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dbwrite-textarea-subcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0px -32px;
+}
+
+.dbwrite-label {
+    font-weight: 500;
+    margin-right: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+}
+
+.dbwrite-input {
+    width: 75%;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #00303f;
+    background-color: white;
+    margin: 8px 16px;
+    padding: 4px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.dbwrite-textarea {
+    margin: 8px 0px;
+    width: 90%;
+    height: 250px;
+    padding: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    resize: none;
+    outline: none;
+    line-height: 1.5;
+    border-radius: 15px;
+    border: 1px solid #7a9d96;
+    letter-spacing: 0.5px;
+    background-color: white;
+}
+
+.dbwrite-error-container {
+    color: #D64452;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+.dbwrite-button {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 8px 32px;
+    border-radius: 15px;
+    border: 0px;
+    color: #ffffff;
+    background-color: #7A9D96;
+    transition: all 0.5s;
+    margin-top: 16px;
+}
+
+.dbwrite-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.dbwrite-button:hover {
+    background-color: #CAE4DB;
+    box-shadow: 0px 0px 15px 0px #7A9D96;
+    scale: 1.02;
+    cursor: pointer;
+}
+
+.dbwrite-spinner-container {
+    margin-top: 64px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #DCAE1D;
+}
